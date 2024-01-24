@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'Celta' ;
+            src: url('fonts/MorrisRomanBlack.otf') format('opentype'), url('fonts/MorrisRomanBlack.ttf')
+            format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*Tipos de Format
+            - opentype(otf)
+            -truetype(ttf)
+            - embedeed-opentype
+            -truetype-aat(Apple Advanced )
+            -svg
+             */
+        }
+        body{
+            font-family:'Celta', Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+
+        h1{
+            font-family:'Celta', 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt tempora eligendi perspiciatis corporis ullam exercitationem sed consequatur, fuga nobis et mollitia maiores sapiente cum, suscipit quibusdam est itaque dolores explicabo.</p>
+</body>
+</html>
